@@ -1,0 +1,19 @@
+name: my beautyfull theme
+type: theme
+description: my first theme from scratch with drupal 8
+core: 8.x
+screenshot: mytheme.png
+
+regions:
+  header: Header
+  mythememenu: Navigation
+  content: Content
+  sidebar_first: Sidbar First
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom
+
+libraries:
+  - mytheme/global-css
+  - mytheme/pacifico
+  - mytheme/fonts
